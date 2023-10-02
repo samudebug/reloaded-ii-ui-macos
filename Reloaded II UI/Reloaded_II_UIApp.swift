@@ -12,6 +12,6 @@ struct Reloaded_II_UIApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-        }
+        }.windowToolbarStyle(UnifiedCompactWindowToolbarStyle()).windowStyle(HiddenTitleBarWindowStyle())
     }
 }
